@@ -1,6 +1,8 @@
+using Xunit;
+
 namespace StringManipulationTest
 {
-    public class UnitTest1
+    public class StringManipulationTest
     {
         [Fact]
         public void Test1()
