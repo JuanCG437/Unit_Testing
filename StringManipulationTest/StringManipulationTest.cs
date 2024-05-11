@@ -80,7 +80,20 @@ namespace StringManipulationTest
         /* Método para validar que un método devuelve 
            una cadena de caracteres sin especios en blanco*/
 
+        [Theory]
+        [InlineData("h ola mundo","holamundo")]
+        [InlineData("jua  n e s mi No mbre", "juanesmiNombre")]
+        public void RemovewhitespaceString_validation(string str, string expectedResult)
+        {
+            //Assert
+            var stringOperations = new StringOperations();
 
+            //Act
+            var resultado = stringOperations.RemoveWhitespace(str);
+
+            //Assert
+            Assert.Equal(expectedResult, resultado);
+        }
         
 
     }
