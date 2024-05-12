@@ -248,7 +248,6 @@ namespace StringManipulationTest
 
             //Act
             if (File.Exists(path)) { result = stringOperations.ReadFile(fileReader, path); validation = true; }
-            else { validation = false; }
 
             //Assert
             Assert.True(validation);
