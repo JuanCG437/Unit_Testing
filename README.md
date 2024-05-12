@@ -428,7 +428,7 @@ La prueba valida que el método *FromRomanToNumber* convierta una serie de carac
 La prueba valida que el método *ReadFile* pueda acceder a un archivo plano de tipo .txt , sea leido y mostrar el contenido del mismo.
 
 # Nota
-para ejemplos de practicidad del proyecto de pruebas este se encuentra dentro del mismo folder del proyecto, por lo tanto no se necesita especificar una ruta, en caso contrario se necesita especificar la ruta del archivo o utilizar una instancia diferente.
+para ejemplos de practicidad del proyecto de pruebas el archivo .txt se encuentra dentro del mismo folder del proyecto, por lo tanto no se necesita especificar una ruta, en caso contrario especificar la ruta del archivo y/o utilizar una instancia diferente.
 
 
 # Referencias
