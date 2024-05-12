@@ -229,5 +229,31 @@ namespace StringManipulationTest
             Assert.Equal(expectedResult, result);
         }
 
+        /* Método que valida si un método permite leer un archivo
+         * plano de tipo .txt y mostrar su contenido*/
+        [Fact]
+        public void ReadFile_validation() 
+        {
+            //Arrange
+            var stringOperations = new StringOperations();
+            IFileReaderConector fileReader = new FileReaderConector();
+            
+            string result = "";
+
+            /* Variable que especifica la ruta donde se aloja el archivo txt (este se aloja en el mismo proyecto por lo tanto
+             * solo hay que espeficiar el nombre del archivo)*/
+            string path = "information.txt";
+
+            bool validation = false;
+
+            //Act
+            if (File.Exists(path)) { result = stringOperations.ReadFile(fileReader, path); validation = true; }
+            else { validation = false; }
+
+            //Assert
+            Assert.True(validation);
+
+        }
+
     }
 }
