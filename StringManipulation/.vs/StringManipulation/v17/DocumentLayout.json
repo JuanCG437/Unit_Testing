@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1550644F-1C95-43F4-82BC-634C3F0D8322}|..\\StringManipulationTest\\StringManipulationTest.csproj|c:\\users\\juanm\\source\\repos\\unit_testing\\stringmanipulationtest\\stringmanipulationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B712199C-C52C-4911-AE2A-7CC4F2B131E0}|StringManipulation.csproj|c:\\users\\juanm\\source\\repos\\unit_testing\\stringmanipulation\\stringoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B712199C-C52C-4911-AE2A-7CC4F2B131E0}|StringManipulation.csproj|solutionrelative:stringoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringOperations.cs",
+              "DocumentMoniker": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringOperations.cs",
+              "RelativeDocumentMoniker": "StringOperations.cs",
+              "ToolTip": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringOperations.cs",
+              "RelativeToolTip": "StringOperations.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:43:39.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StringManipulationTest.cs",
+              "DocumentMoniker": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulationTest\\StringManipulationTest.cs",
+              "RelativeDocumentMoniker": "..\\StringManipulationTest\\StringManipulationTest.cs",
+              "ToolTip": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulationTest\\StringManipulationTest.cs",
+              "RelativeToolTip": "..\\StringManipulationTest\\StringManipulationTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:22:41.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

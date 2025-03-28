@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StringManipulation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90d5c18b4880c210e436359f551371fa4487f78c")]
+>>>>>>> test-project
 [assembly: System.Reflection.AssemblyProductAttribute("StringManipulation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StringManipulation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
