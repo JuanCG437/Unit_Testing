@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj": {}
+    "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj": {
+    "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj",
+        "projectUniqueName": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj",
         "projectName": "StringManipulation",
-        "projectPath": "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj",
+        "projectPath": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj",
         "packagesPath": "C:\\Users\\juanM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulation\\obj\\",
+        "outputPath": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

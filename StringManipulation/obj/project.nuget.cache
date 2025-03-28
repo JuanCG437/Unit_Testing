@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+QHXt+zHFPK7FHSl5iFKxaY1AvvTGk/DwkgA5AEX3UxAk4GfyUKuQsCtR9+UseZJBgAc1ZBgsl9SEcWo+jz5dQ==",
+  "dgSpecHash": "VpULbu9e7j8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj",
+  "projectFilePath": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulation\\StringManipulation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanM\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\juanM\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

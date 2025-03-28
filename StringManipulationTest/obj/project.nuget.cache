@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rnwzSV7aYC2CmvAEBdVZq2Erilbdm+Uh0jZBGm1/Y3HuosIFWzWpLxjxnem+rq7NX1RjQaa/LECWXv2i3o00mA==",
+  "dgSpecHash": "vEMGj4pqJ8Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanM\\Source\\Repos\\Unit_Testing\\StringManipulationTest\\StringManipulationTest.csproj",
+  "projectFilePath": "C:\\Users\\juanM\\source\\repos\\Unit_Testing\\StringManipulationTest\\StringManipulationTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanM\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\juanM\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
