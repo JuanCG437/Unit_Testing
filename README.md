@@ -126,4 +126,71 @@ public void ReverseString_validation(string str1, string expectedResult)
 [Theory]
 [InlineData("mensaje",7)]
 [InlineData("computadora",11)]
-public void GetStrings_v
+public void GetStrings_validation(string str1, int expectedResult) 
+{
+    var stringOperations = new StringOperations();
+    var resultado = stringOperations.GetStringLength(str1);
+    Assert.Equal(expectedResult , resultado);
+}
+```
+
+### ⚠️ GetStringLengthException
+
+```csharp
+[Fact]
+public void GetString_Exception_validation() 
+{
+    var stringOperations = new StringOperations();
+    string str = null;
+    Assert.Throws<ArgumentNullException>(() => stringOperations.GetStringLength(str));
+}
+```
+
+### ✂️ TruncateString
+
+```csharp
+[Fact]
+public void TruncateString_validation()
+{
+    var stringOperations = new StringOperations();
+    var resultado = stringOperations.TruncateString("hola mundo", 5);
+    Assert.Equal("hola ", resultado);
+}
+```
+
+### 🔍 isPalindromeString
+
+```csharp
+[Theory]
+[InlineData("reconocer")]
+[InlineData("radar")]
+public void isPalindromeString_validation(string str) 
+{
+    var stringOperations = new StringOperations();
+    var resultado = stringOperations.IsPalindrome(str);
+    Assert.True(resultado);
+}
+```
+
+### 🔢 FromRomanToNumber
+
+```csharp
+[Theory]
+[InlineData("i", 1)]
+[InlineData("v", 5)]
+[InlineData("x", 10)]
+public void FromRomanToNumber_validation(string str, int expectedResult) 
+{
+    var stringOperations = new StringOperations();
+    var result = stringOperations.FromRomanToNumber(str);
+    Assert.Equal(expectedResult, result);
+}
+```
+
+---
+
+## 📚 Referencias
+
+Este proyecto que se tomó como base de pruebas, proveniente del repositorio:
+
+📌 [yBetancurr4002/UnitTestingXUnit](https://github.com/yBetancurr4002/UnitTestingXUnit.git "Referencia del proyecto base")
