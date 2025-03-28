@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # StringManipulation Aplication
 base project of a working application to manipulate character strings
 =======
